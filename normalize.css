@@ -353,7 +353,15 @@ details {
  * Add the correct display in all browsers.
  */
 
+summary::-webkit-details-marker {
+ display: none;
+}
+
 summary {
+ list-style: none;
+}
+
+details > summary:first-of-type {
   display: list-item;
 }
 
