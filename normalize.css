@@ -388,3 +388,12 @@ template {
 [hidden="until-found"] {
   display: revert;
 }
+
+/**
+ * Default list style to "outside" in Chrome
+ */
+
+li {
+  list-style-position: outside;
+}
+
